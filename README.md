@@ -6,7 +6,7 @@ A decision tree model is also implemented to provide a non-parametric comparison
 
 ***Part B – Probit Regression***
 
-This part applies a probit regression model to the same classification problem—identifying non-vegetarian households. 
+This part applies a probit regression model to the same classification problem of identifying non-vegetarian households. 
 While similar to logistic regression in form, the probit model uses a cumulative normal distribution for its link function. 
 The results are interpreted with attention to probability thresholds and marginal effects, and the model is evaluated similarly using ROC analysis. 
 The section also highlights the conditions under which a probit model may be theoretically preferred, such as in behavioral or latent decision processes.
@@ -15,4 +15,4 @@ The section also highlights the conditions under which a probit model may be the
 
 Here, a Tobit model is employed to analyze the value of non-vegetarian consumption, which is a left-censored variable since many households report zero consumption. 
 Unlike logistic and probit models that handle binary outcomes, the Tobit model accommodates the continuous nature of spending while accounting for censoring at zero. 
-This section interprets both the probability of consumption and the expected consumption value, and discusses real-world applications where censored regression is useful—such as in demand analysis and expenditure modeling.
+This section interprets both the probability of consumption and the expected consumption value, and discusses real-world applications where censored regression is useful such as in demand analysis and expenditure modeling.
